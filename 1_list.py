@@ -75,3 +75,7 @@ print("Is apples in list : ", "apples" in shopping_list)
 print("Is apples not in list : ", "apples" not in shopping_list)
 
 
+#list comprehension
+# List comprehension to create a list of the first 10 square numbers
+squares = [i**2 for i in range(1, 11)]
+print("Squares : ", squares)
