@@ -7,9 +7,13 @@ print("Appended list : ", shopping_list)
 # insert() is a method that adds an item to a specific index in a list
 shopping_list.insert(1, "eggs")
 print("Inserted list : ", shopping_list)
+#insert numeric value
+n = 20
+shopping_list.insert(5, n)
+print("Inserted numeric list : ", shopping_list)
 
 # del is a keyword that deletes an item from a list
-del shopping_list[0]
+del shopping_list[1]
 print("Deleted list : ", shopping_list)
 
 # remove() is a method that removes an item from a list
