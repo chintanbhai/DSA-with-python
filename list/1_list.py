@@ -1,3 +1,8 @@
+bash: line 1: 1_list.py: command not found
+
+
+
+
 shopping_list = ["apples", "bread", "milk"]
 
 # append() is a method that adds an item to the end of a list
