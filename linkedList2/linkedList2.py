@@ -32,12 +32,21 @@ class linklist:
             
     def delete_last(self):
         temp = self.head
+        if self.head is None:
+            return
+        if self.head.next is None:
+            self.head = None
+            return
+        
         while temp.next and temp.next!= self.tail:
             temp = temp.next
         temp.next = None
         self.tail = temp
         
     def delete_first(self):
+        if self.head is None:
+            return
+        
         self.head = self.head.next
         
     def delete_place(self,n):
